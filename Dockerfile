@@ -14,7 +14,7 @@ RUN wget -q http://github.com/liukaitj/elasticsearch-cn-out-of-box/archive/v1.6.
 
 RUN mkdir /data /logs
 
-VOLUME ["/data", "/logs"]
+VOLUME ["/esdata"]
 
 ENV ES_HOME /elasticsearch
 
