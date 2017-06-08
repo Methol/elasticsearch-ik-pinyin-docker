@@ -1,7 +1,7 @@
 #!/bin/sh
 
-OPTS="-Des.path.data=/data \
-  -Des.path.logs=/logs \
+OPTS="-Des.path.data=/esdata/data \
+  -Des.path.logs=/esdata/logs \
   -Des.transport.tcp.port=9300 \
   -Des.http.port=9200"
 
