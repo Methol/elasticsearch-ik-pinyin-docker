@@ -12,7 +12,8 @@ RUN wget -q http://github.com/liukaitj/elasticsearch-cn-out-of-box/archive/v1.6.
     rm -rf /elasticsearch/plugins/marvel && \
     rm v1.6.0P.docker.zip
 
-RUN mkdir /data /logs
+RUN mkdir /esdata/data 
+RUN mkdir /esdata/logs
 
 VOLUME ["/esdata"]
 
